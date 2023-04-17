@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik Wet Paint", sans-serif;
+}
+
+header {
+    background-color: rgba(255, 136, 0, 0.747);
+}
+
+.headerPosition {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.blogName {
+    flex: 60%;
+    justify-content: center;
+}
+
+.logo {
+    flex: 33%;
+}
+
+footer {
+    background-color: #0008ff;
+}
+
+.container {
+    padding: 30px 25px;
+}
+
+.footerColumns {
+    display: flex;
+}
+
+.footerColumn {
+    flex: 50%;
+    margin: 10px;
+}
+
+.footerColumn h3,
+p,
+a {
+    color: white;
+}
+
+small {
+    color: white;
+}
+
+main {
+    padding: 10px;
+    background-color: rgb(76, 0, 255);
+}
+
+.post {
+    background-color: #f80;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.post p {
+    color: aquamarine;
+}
+
+.post img {
+    margin: 20px;
+}
